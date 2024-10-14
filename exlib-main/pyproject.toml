@@ -1,0 +1,25 @@
+[project]
+name = "exlib"
+version = "0.0.1"
+authors = [
+  { name="Eric Wong", email="exwong@cis.upenn.edu" },
+]
+dependencies = [
+  'lime >= 0.2',
+  'shap >= 0.42',
+  'torch >= 2.0',
+  'grad-cam >= 1.4.8',
+  'jsonlines >= 3.1.0'
+]
+description = "Tools for explainability"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DebugML/exlib"
+"Bug Tracker" = "https://github.com/DebugML/exlib/issues"
